@@ -18,7 +18,7 @@ The work was carried out using Kaggle Notebooks with GPU acceleration and focuse
 . Demostrate best practice for healthcare ML workflows
 
  ## Dataset
- Source: Kaggle- Alzheimer's Multiclass Dataset (Equal and Augmented)
+ Source: Kaggle- Alzheimer's Multiclass Dataset (Augmented)
 
  ### Classes:
  . NonDemented
@@ -26,7 +26,7 @@ The work was carried out using Kaggle Notebooks with GPU acceleration and focuse
  . MildDemented
  . ModerateDemented
 
- ### Directtory Structure:
+ ### Directory Structure:
  alzheimer's multiclass dataset-equal-and-augumented/
 
 
@@ -34,9 +34,10 @@ The work was carried out using Kaggle Notebooks with GPU acceleration and focuse
 . Python
 . TensorFlow / Keras
 . Numpy 
-. Matplotlib
+. Matplotlib, Seaborn
 . Sciokit-Learn
 . Kaggle GPU (Tesla P100)
+. Streamlit
 
 
 ## Methodology
@@ -52,7 +53,7 @@ This approach prevent memory overflow and improves performance.
 . Apply ResNet50 preprocessing
 
 
-3. Feature Extraction (Transfer Learning)
+3. Feature Extraction 
 . Used ResNet50 pretrained on ImageNet
 . Removed top classification layers
 . Extracted deep features using global average pooling
@@ -71,12 +72,14 @@ This approach prevent memory overflow and improves performance.
 
 
 ### Model Performance
-. Accuracy: 
-. Precission:
-. Recall:
-. F1-Score
+. Accuracy: 89%
+. Precission: High
+. Recall: High
+. F1-Score: High
+The model demostrates strong predictive performance and  generalization capability.
 
-## 
+Author: Khadijat Abubakar
+
 
 
 
